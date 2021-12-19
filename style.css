@@ -1,8 +1,19 @@
+body {
+  background:black;
+}
+
 #title, .subtitle, .post_title {
-  color: goldenrod;
+  color: greenyellow;
 }
 
 .post_title {
   font-size: 16px;
   font-style: italic;
+}
+
+.post {
+  background: dimgray;
+  padding: 10px;
+  border: 2px solid greenyellow;
+  margin: 4px;
 }
