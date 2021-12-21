@@ -1,19 +1,36 @@
 body {
-  background:black;
+  background:rgb(22, 24, 32);
+}
+
+.photo {
+  border-radius: 50%;
+  border:2px solid rgb(250, 155, 46);
 }
 
 #title, .subtitle, .post_title {
-  color: greenyellow;
+  color: rgb(250, 155, 46);
 }
 
 .post_title {
   font-size: 16px;
   font-style: italic;
+  margin: 0;
+  margin-bottom: 12px;
 }
 
 .post {
-  background: dimgray;
+  background: rgb(33, 36, 48);
   padding: 10px;
-  border: 2px solid greenyellow;
-  margin: 4px;
+  border: 2px solid rgb(250, 155, 46);
+  border-radius: 2% 2% 5% 5%;
+  margin-bottom: 12px;
+}
+
+.post_content {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.post_thumbnail {
+  margin-bottom: 12px;
 }
