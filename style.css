@@ -1,5 +1,12 @@
 body {
   background:rgb(22, 24, 32);
+  font-family: Georgia, Helvetica;
+}
+
+a {
+  color: rgb(250, 155, 46);
+  text-decoration-line: none;
+  font-style: italic;
 }
 
 .photo {
@@ -9,6 +16,7 @@ body {
 
 #title, .subtitle, .post_title {
   color: rgb(250, 155, 46);
+  text-transform: uppercase;
 }
 
 .post_title {
@@ -27,10 +35,21 @@ body {
 }
 
 .post_content {
+  color: aliceblue;
   margin: 0;
   margin-bottom: 12px;
 }
 
 .post_thumbnail {
   margin-bottom: 12px;
+}
+
+.contact_list {
+  list-style-type: none;
+  padding: 0;
+  padding-left: 12px;
+}
+
+.contact_list li a {
+  font-style: normal;
 }
